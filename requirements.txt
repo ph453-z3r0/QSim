@@ -1,0 +1,14 @@
+# Core dependencies
+qiskit>=0.45.0
+cirq>=1.0.0
+matplotlib>=3.5.0
+numpy>=1.21.0
+
+# Optional dependencies for PDF reports
+reportlab>=3.6.0
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0
+

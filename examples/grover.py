@@ -1,0 +1,8 @@
+from qiskit import QuantumCircuit
+
+def build():
+    qc = QuantumCircuit(2)
+    qc.h([0, 1])
+    qc.cz(0, 1)
+    qc.h([0, 1])
+    return qc
